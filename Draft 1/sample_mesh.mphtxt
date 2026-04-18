@@ -1,0 +1,36 @@
+# Created by COMSOL Multiphysics (synthetic sample)
+
+# Space dimensions
+3
+
+# Mesh vertex coordinates  (8 corners of a unit cube)
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+0 0 1
+1 0 1
+1 1 1
+0 1 1
+
+# ---- Element sections -----------------------------------------------
+
+1 # number of element types
+
+# Mesh element: quad
+6 # number of elements
+# connectivity (0-based)
+0 1 2 3
+4 5 6 7
+0 1 5 4
+2 3 7 6
+0 3 7 4
+1 2 6 5
+# 1 # number of geometric domains
+1 # number of domains per element (column)
+1
+2
+3
+4
+5
+6

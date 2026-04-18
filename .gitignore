@@ -1,0 +1,15 @@
+# Exclude Draft 0 folder
+Draft 0/
+
+# Exclude specific folders in Draft 1
+Draft 1/files/
+Draft 1/FPT Results/
+Draft 1/NORMAL MESH/
+Draft 1/with connection open/
+
+# Exclude large velocity data files
+Draft 1/Velo_*.txt
+
+# Exclude large binary mesh files
+Draft 1/mesh_1.mphbin
+Draft 1/*.mph
